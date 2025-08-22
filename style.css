@@ -1,0 +1,1990 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton&display=swap');
+
+
+body {
+  background-color: #ffffff;
+  font-family: Arial, sans-serif;
+    background-image: url('fondo.png');
+    background-repeat: repeat; /* o no-repeat si no querés que se repita */
+    background-size: cover;    /* o 'contain' o un tamaño como '100% 100%' */
+    background-position: center;
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden; /* evita overflow horizontal */
+  
+}
+
+h1 {
+  font-family: 'Anton', sans-serif;
+  color: red;
+}
+p {
+  font-family:Arial, Helvetica, sans-serif;
+  color: rgb(0, 0, 0);
+}
+video {
+  display: block !important;
+}
+.contenedor {
+  position: relative;
+  width: 1920px;
+  margin: 0 auto;
+  height: 3000px;
+  background-color: #fff;
+  overflow: hidden;
+}
+.lola-centro {
+  position: absolute;
+  top: 92px;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 620px;
+  z-index: -1; /* bien alto */
+  opacity: 1;     /* asegurate de que no esté en 0 */
+  display: block; /* que no esté en none */
+  pointer-events: auto;
+}
+.clmklola{
+margin-top: 150px;
+  max-width: 50%;
+ z-index: 1;
+}
+
+.typewriter-text {
+  position: absolute;
+  top: 100px;
+  right: 30px; /* Ahora está a la derecha */
+  max-width: 180px;
+ font-family: Arial, Helvetica, sans-serif;
+  font-size: 10px;
+  color: rgb(255, 255, 255);
+  font-weight: 500;
+  white-space: pre-wrap;
+  overflow: hidden;
+  direction: rtl;           /* Escribe de derecha a izquierda */
+  unicode-bidi: plaintext;  /* Asegura que respete el orden visual */
+  border-left: 2px solid rgba(255, 255, 255, 0); /* Cursor al lado izquierdo */
+  animation: blink-caret 0.7s step-end infinite;
+  text-align: right;
+  z-index: 22;
+}
+.cinta {
+  display: flex;
+  overflow: hidden; /* Oculta el texto fuera de la pantalla */
+  position: relative;
+}
+
+.trawr {
+  font-size: 29px;
+  color: rgb(255, 0, 0);
+  text-align: center;
+  font-weight: 800;
+  line-height: 1.2;
+  white-space: nowrap; /* Evita que el texto se divida en varias líneas */
+  animation: move-right 10s linear infinite; /* Animación de movimiento */
+  margin-right: 50px; /* Espacio entre los textos */
+}
+.credit {
+  margin-top: 830px;
+ font-size: 5px;
+ margin-left: 45px;
+}
+
+@keyframes move-right {
+  0% {
+    transform: translateX(-100%); /* Comienza fuera de la pantalla a la izquierda */
+  }
+  100% {
+    transform: translateX(100%); /* Termina fuera de la pantalla a la derecha */
+  }
+}
+
+.forma-roja-1{
+  position: absolute;
+  top: 450px;
+  right: -50px; /* Ahora está a la derecha */
+  max-width: 250px;
+  text-align: right;
+  z-index: -1;
+}
+
+.forma-roja-2{
+  position: absolute;
+  top: 920px;
+  left: -10px; /* Ahora está a la derecha */
+  max-width: 250px;
+  z-index: -1;
+}
+
+.texto-claro{
+  position: absolute;
+  top: 190px;
+  left: 30px; /* Ahora está a la derecha */
+  max-width: 90px;
+  font-size: 70px;
+  color: rgba(255, 255, 255, 0.835);
+  text-align: left;
+  z-index: 22;
+}
+
+.estrellita1{
+  position: absolute;
+  max-width: 120px;
+  top: 470px;
+  left: 200px; /* Ahora está a la derecha */
+  align-items: center;
+
+}
+
+.estrellita2{
+  position: absolute;
+  max-width: 120px;
+  top: 870px;
+  left: 300px; /* Ahora está a la derecha */
+  align-items: center;
+z-index: -1;
+}
+
+.estrellita3{
+  position: absolute;
+  max-width: 120px;
+  top: 1300px;
+  left: 200px; /* Ahora está a la derecha */
+  align-items: center;
+z-index: -1;
+}
+.social-icons {
+  display: flex;
+  justify-content: center; /* centrado horizontal */
+  gap: 15px; /* espacio entre íconos */
+  margin-top: 300px; /* separa de la estrella final */
+}
+
+.social-icons img {
+  width: 30px;  /* tamaño pequeño */
+  height: 30px;
+  filter: invert(18%) sepia(96%) saturate(7494%) hue-rotate(357deg) brightness(100%) contrast(104%);
+  transition: transform 0.2s;
+}
+
+.social-icons img:hover {
+  transform: scale(1.2);
+}
+
+.estrellada{
+  position: absolute;
+  max-width: 60px;
+top: 1950px;
+left: 282px;
+  align-items: center;
+z-index: -1;
+}
+.TEXTOIZQ{
+  position: absolute;
+  top: 630px;
+  left: 30px; /* Ahora está a la derecha */
+  max-width: 200px;
+  font-size: 15px;
+  color: rgb(0, 0, 0);
+  text-align: left;
+  
+}
+
+.titulo{
+  position: absolute;
+  top: 420px;
+  left: 30px; /* Ahora está a la derecha */
+  font-size: 46px;
+  text-decoration-color: rgb(255, 0, 0) ;
+  color: rgb(255, 0, 0);
+  text-align: left;
+font-weight: 800;
+line-height: 1.2;
+}
+
+.tituloawawa {
+  position: absolute;
+  font-size: 34px;
+  text-decoration-color: rgb(255, 0, 0);
+  color: rgb(255, 0, 0);
+  font-weight: 800;
+  line-height: 1.2;
+  top: 980px; /* Ajustá este valor según cómo esté distribuido tu contenido */
+  left: 50%;
+  transform: translateX(-50%);
+  text-align: center;
+}
+
+
+/* Forma roja + libro */
+.seccion-libro {
+  position: absolute;
+  max-width: 200px;
+  top: 520px;
+  left: 130px;
+}
+
+
+.flecha{
+  position: absolute;
+  top: 850px;
+  left: 110px; /* Ahora está a la derecha */
+  max-width: 70px;
+  rotate: 10;
+  text-align: right;
+  z-index: -1;
+}
+
+.aa{
+  position: absolute;
+  font-family:'Courier New', Courier, monospace;
+  font-weight: 900;
+  top: 1090px;
+  left: 30px; /* Ahora está a la derecha */
+  max-width: 200px;
+  font-size: 10px;
+  color: rgb(255, 0, 0);
+  text-align: left;
+}
+
+.grr{
+  position: absolute;
+  top: 900px;
+  left: 130px; /* Ahora está a la derecha */
+  max-width: 200px;
+  font-size: 9px;
+  color: rgb(0, 0, 0);
+  text-align: center;
+}
+.laptop {
+  position: absolute;
+  top: 820px;
+  left: 30px; /* Ahora está a la derecha */
+  max-width: 125px;
+}
+
+.arriesgar{
+  position: absolute;
+  top: 1700px;
+  left: 30px; /* Ahora está a la derecha */
+  max-width: 180px;
+  text-align: right;
+  z-index: -1;
+}
+.disgus{
+  position: absolute;
+  top: 1180px;
+  right: 30px; /* Ahora está a la derecha */
+  max-width: 190px;
+  text-align: right;
+  z-index: -1;
+}
+#glitch-fondo {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  pointer-events: none;
+  z-index: 0;
+  overflow: hidden;
+}
+
+#glitch-fondo {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  pointer-events: none;
+  z-index: -9999; /* bien detrás de todo */
+  overflow: hidden;
+}
+
+.glitch-line {
+  position: absolute;
+  font-size: 10px;
+  font-family: monospace;
+  color: rgba(255, 0, 0, 0.1); /* rojo tenue */
+  white-space: nowrap;
+  opacity:
+   1;
+}
+
+/*REVISTA*/
+/* Oculta el modal por defecto */
+.modal.oculto {
+  display: none;
+}
+
+/* Fondo blur al mostrar modal */
+.modal {
+  position: fixed;
+  top: 0; left: 0;
+  width: 100vw; height: 100vh;
+  background-color: rgba(0, 0, 0, 0.4);
+  backdrop-filter: blur(8px);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 1000;
+}
+
+/* Flipbook centrado */
+.flipbook-container {
+  background: rgba(72, 70, 70, 0);
+  overflow-y: auto;
+}
+
+/* Evita scroll del body cuando el modal está abierto */
+body.modal-abierto {
+  overflow: hidden;
+}
+
+
+.flipbook {
+  top: -20px;
+  width: 400px;
+  height: 270px;
+  overflow: hidden;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+}
+
+.portada {
+  background: #5e0900 !important;
+
+}
+
+.flipbook .hard {
+  background: #5e0900 !important;
+  color: white;
+  font-weight: bold;
+  font-size: 14px;
+  padding: 10px;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.flipbook .hard small {
+  font-size: 10px;
+  opacity: 0.7;
+  margin-top: 5px;
+  font-style: italic;
+}
+
+.flipbook .page {
+  background: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  width: 100%;
+  height: 100%;
+  position: relative;
+  overflow: hidden;
+}
+
+.page img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.sticker img {
+  position: absolute;
+  width: 60px;
+  height: 60px;
+  top: 90px;
+  left: 65px;
+}
+
+.link-text {
+  font-size: 20px;
+  color: red;
+  font-family: 'Arial', sans-serif;
+  text-decoration: none;
+  transition: transform 0.3s;
+  position: absolute;
+  bottom: 10px;
+  right: 10px;
+}
+
+.link-text:hover {
+  transform: scale(1.1);
+}
+/* SKETCHBOOK */
+
+/* Animación de aparición del Sketchbook */
+@keyframes aparecer-sketchbook {
+  from {
+    opacity: 0;
+    transform: scale(0.8);
+  }
+  to {
+    opacity: 1;
+    transform: scale(1);
+  }
+}
+
+/* Bloquear scroll */
+.bloquear-scroll {
+  overflow-y: hidden;
+}
+
+/* Ajuste de contenedor del libro */
+#contenedor-sketchbook {
+  top: 0px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  max-width: 200px;
+  width: 90%;
+  transform: scale(0.8);
+  transition: transform 0.3s ease;
+}
+
+/* Tamaño de la portada */
+.portada-sketchbook {
+  width: 200px;
+  height: auto;
+  object-fit: contain;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.3);
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+/* Tamaño de cada página (cuando el libro está abierto) */
+.pagina-sketchbook {
+  width: 120px;
+  height: auto;
+  object-fit: contain;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+  margin: 0 10px; /* separación entre páginas */
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+/* Animación para rotar la página */
+@keyframes pasar-pagina-derecha {
+  0% {
+    transform: rotateY(0deg);
+  }
+  50% {
+    transform: rotateY(-90deg);
+    opacity: 0.5;
+  }
+  100% {
+    transform: rotateY(0deg);
+  }
+}
+
+@keyframes pasar-pagina-izquierda {
+  0% {
+    transform: rotateY(0deg);
+  }
+  50% {
+    transform: rotateY(90deg);
+    opacity: 0.5;
+  }
+  100% {
+    transform: rotateY(0deg);
+  }
+}
+
+/* Estilos para la sección del Sketchbook */
+/* Sketchbook oculto */
+#seccion-sketchbook {
+  display: none; /* oculto al cargar */
+  position: fixed; /* ahora fijo a la pantalla */
+  top: 838%; /* centro vertical */
+  left: 0%; /* centro horizontal */
+  transform: translate(-50%, -50%); /* ajuste real para centrar */
+  width: 100vw;
+  height: 100vh;
+  background-color: rgba(0, 0, 0, 0.4);
+  backdrop-filter: blur(8px);
+  justify-content: center;
+  align-items: center;
+  z-index: 1000;
+  overflow-y: auto;
+}
+
+/* Sketchbook visible con animación */
+#seccion-sketchbook.mostrar-sketchbook {
+  display: flex; /* mostrar y centrar */
+  animation: aparecer-sketchbook 0.5s ease forwards;
+}
+
+
+/* CLRMK */
+
+.titulo-clmk {
+  font-size: 5rem;
+  color: black;
+  margin-top: 0.4rem;
+  text-align: left;
+  padding-left: 2rem;
+}
+
+.subtitulo-clmk {
+  text-align: right;
+  padding-right: 2rem;
+  font-size: 1rem;
+  color: black;
+}
+
+.flecha-volver {
+  font-size: 2.5rem;
+  color: red;
+  background: none;
+  border: none;
+  cursor: pointer;
+  display: block;
+  top: 70px;
+  left: -120px !important;
+  transition: transform 0.3s ease;
+  z-index: 1;
+}
+
+.flecha-volver:hover {
+  transform: scale(1.2) rotate(-10deg);
+}
+
+.galeria-oculta {
+  display: none;
+  opacity: 0;
+  transform: scale(0.9);
+  transition: all 1s ease;
+}
+
+.galeria-activa {
+  display: block;
+  opacity: 1;
+  transform: scale(1);
+}
+
+#clrmk {
+  padding: 3rem;
+  background: #fff;
+  color: #000;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.intro-typed {
+  position: relative;
+  top: -40px; /* un poco elevado, pero cerca del contenido siguiente */
+  width: 50%;
+  text-align: left;
+  font-size: 0.65rem;
+  line-height: 1.4;
+  margin-left: 1.5rem;
+  margin-bottom: 0; /* sin separación extra abajo */
+}
+
+/* PROYECTOS ESTRELLADOS */ 
+
+.proyectos-grid {
+  display: flex;
+  justify-content: center;
+  gap: 2rem;
+  z-index: 1;
+  margin-top: 200px;
+}
+
+.proyecto-box {
+  width: 150px;
+  height: 120px;
+  border-radius: 0.5rem; /* bordes redondeados */
+  overflow: hidden;
+  cursor: pointer;
+  transition: transform 0.4s ease, filter 0.4s ease;
+  background: #111;
+  box-shadow: 0 0 20px rgba(255, 0, 0, 0.3);
+
+}
+
+.proyecto-box img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.proyecto-box:hover {
+  transform: scale(1.08);
+  filter: brightness(1.1);
+}
+
+/* Secciones ocultas */
+.hidden-section {
+  display: none;
+  opacity: 0;
+  transition: opacity 0.8s ease, filter 0.8s ease;
+  filter: blur(10px);
+}
+
+.hidden-section.active {
+  display: block;
+  opacity: 1;
+  filter: blur(0);
+}
+
+/* Ocultar inicio cuando se abre sección */
+#inicio.oculto {
+  opacity: 0;
+  filter: blur(20px);
+  transition: opacity 0.8s ease, filter 0.8s ease;
+  pointer-events: none;
+}
+ 
+/*INICIO CLRMK */
+
+/* Contenedor del cubo y el texto */
+.contenedor-cubo-texto {
+  display: flex;
+  align-items: flex-start;
+  gap: 1rem;
+  margin-top: 0;
+}
+
+/* Cubo de imágenes más compacto */
+.cubo-imagenes {
+  margin-left: 5%;
+  width: 400px;
+  height: 360px;
+  overflow: hidden;
+  position: relative;
+  border-radius: 20px;
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.9);
+  transition: transform 0.3s ease;
+  cursor: pointer;
+}
+
+.cubo-imagenes:hover {
+  transform: scale(0.97);
+}
+
+.cubo-imagenes.zoomed {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  width: 80vw;
+  height: 80vh;
+  transform: translate(-50%, -50%) scale(1.05);
+  z-index: 1000;
+  border-radius: 20px;
+  box-shadow: 0 0 30px rgba(0, 0, 0, 1);
+}
+
+intro-typed {
+margin-bottom: 50px;
+}
+
+body.blurred {
+  filter: blur(6px);
+  pointer-events: none;
+}
+
+body.blurred .cubo-imagenes.zoomed {
+  pointer-events: auto;
+  filter: none;
+}
+
+/* Imágenes dentro del cubo */
+.cubo-imagenes img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  opacity: 0;
+  transition: opacity 0.8s;
+}
+
+.cubo-imagenes img:first-child {
+  opacity: 1;
+}
+
+
+.flecha-ver-mas {
+  width: 100px;
+  margin-top: 0.8rem;
+  cursor: pointer;
+  transition: transform 0.3s ease;
+}
+
+.flecha-ver-mas:hover {
+  transform: scale(1.1);
+}
+
+/* Overlay hoja */
+#overlay {
+  position: fixed;
+  top: 0; left: 0;
+  width: 100%; height: 100%;
+  background: rgba(0, 0, 0, 0.404);
+  backdrop-filter: blur(3px);
+  display: flex;
+  z-index: 999;
+  transition: opacity 0.3s ease;
+}
+
+#overlay.oculto {
+  display: none;
+}
+
+#hoja img {
+  width: 100%;
+  max-width: 80vw;
+  max-height: 90vh;
+margin-top: 170%;
+margin-left: 100%;
+}
+#overlay.mostrar {
+  opacity: 1;
+  pointer-events: auto;
+  backdrop-filter: blur(6px);
+}
+#overlay.mostrar #hoja img {
+  transform: scale(1);
+  opacity: 1;
+}
+
+
+.estiloclrmk img {
+  position: absolute;
+  top: 4100px;
+  margin-left: -20px;
+  max-width: 110%;
+  z-index: -1;
+  transform: rotate(-10deg);
+}
+
+.dinamico img {
+  position: absolute;
+  top: 10px;
+  margin-left: 200px !important;
+  max-width: 80%;
+  z-index: -1;
+  transform: rotate(40deg);
+}
+
+.galeria-activa,
+#inicio {
+  opacity: 1;
+  filter: blur(0);
+  transition: opacity 0.8s ease, filter 0.8s ease;
+  pointer-events: auto;
+}
+
+.galeria-oculta,
+.inicio-oculto {
+  opacity: 0;
+  filter: blur(10px);
+  transition: opacity 0.8s ease, filter 0.8s ease;
+  pointer-events: none;
+}
+
+
+/* ALBA */
+.sectionalba {
+  position: relative;
+  margin-top: 4rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.sectionalba .imagen-fondo {
+  width: 110vw;
+  max-width: 1000px;
+  opacity: 1;
+  z-index: 0;
+}
+
+/* Carrusel giratorio */
+.carrusel-imagenes {
+  display: flex;
+  gap: 2rem;
+  margin-top: -120px;
+  z-index: 2;
+  perspective: 1000px; /* profundidad para efecto 3D */
+}
+
+.imagen-cubo {
+  width: 140px;
+  height: 140px;
+  transition: transform 0.8s ease;
+}
+
+.imagen-cubo img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transform-style: preserve-3d;
+  backface-visibility: hidden;
+  border-radius: 10px;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0);
+}
+
+/* Giro al hacer hover o scroll */
+.imagen-cubo:hover {
+  transform: rotateY(180deg) rotateX(15deg);
+}
+.trozo {
+  perspective: 1000px;
+  height: 100px; /* por ejemplo */
+  overflow: hidden;
+}
+
+.cubo {
+  width: 100%;
+  height: 100%;
+  transform-style: preserve-3d;
+  transition: transform 1s;
+  position: relative;
+}
+
+.cara {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  backface-visibility: hidden;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.frente {
+  transform: rotateY(0deg);
+}
+
+.dorso {
+  transform: rotateY(180deg);
+}
+
+.trozo.activo .cubo {
+  transform: rotateY(180deg);
+}
+
+/* MANZANA */
+#manzanita {
+  margin-top: 20%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.apple-container {
+  position: relative;
+  width: 250px;
+  height: 250px;
+  background-image: url('imagenes/clrmk/manzana.png');
+  background-size: cover;
+  background-position: center;
+  perspective: 1200px;
+  display: flex;
+  flex-wrap: wrap;
+  align-content: center;
+  justify-content: center;
+  transition: width 1s ease, height 1s ease;
+}
+
+.slice {
+  position: absolute;
+  width: 100%;
+  height: calc(100% / 6);
+  background-size: cover;
+  background-position: center;
+  transform-origin: center;
+  transition: transform 1s ease, background-image 0.8s ease, top 0.8s ease, left 0.8s ease, width 0.8s ease, height 0.8s ease;
+}
+
+
+.slice.final-layout {
+  transform: rotateY(0deg) scale(1);
+  transition: transform 0.8s ease, width 0.8s ease, height 0.8s ease;
+}
+
+.slice.grid-layout {
+  position: absolute !important;
+  width: 200px !important;
+  height: 150px !important;
+  margin-left: 0px !important;
+  transition: transform 1s ease, top 1s ease, left 1s ease;
+  z-index: 10;
+  /* quitar transform aquí para manejarlo solo en JS */
+}
+
+.apple-container.grid-active {
+  width: auto;
+  height: auto;
+  background-image: none;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-content: center;
+  gap: 10px;
+  padding: 20px;
+}
+
+/* LEANDRO */
+
+#leandro {
+  margin-top: 10%;
+  position: relative;
+  height: 100vh;
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+  padding-left: 20px;
+  color: red;
+  font-family: Helvetica, Arial, sans-serif;
+}
+
+.manta-bg {
+  position: absolute;
+  top: 0;
+  left: 200%; /* inicia fuera a la derecha */
+  width: 120%;
+  height: 100%;
+  background-image: url('imagenes/clrmk/manta.png');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  transition: left 2s ease;
+  z-index: 1;
+}
+
+.content {
+  position: relative;
+  display: flex;
+  align-items: center;
+  z-index: 2;
+}
+
+.leandro-img {
+  position: relative;
+  left: 0; /* inicia fuera a la izquierda */
+  width: 200px;
+  height: auto;
+  transition: left 2s ease;
+  margin-right: 20px;
+  user-select: none;
+}
+
+.typing-text {
+  font-size: 3rem;
+  font-weight: bold;
+  color: red;
+  white-space: nowrap;
+  border-right: 3px solid red;
+  overflow: hidden;
+  width: 15; /* empieza oculto para animar */
+  animation: typing 3s steps(15) forwards, blinkCaret 0.75s step-end infinite;
+}
+
+/* Animación máquina de escribir */
+@keyframes typing {
+  from { width: 0; }
+  to { width: 15ch; }
+}
+
+@keyframes blinkCaret {
+  0%, 100% { border-color: transparent; }
+  50% { border-color: red; }
+}
+
+/* LOLA */
+ #lola {
+    position: relative;
+    margin-top: 30%;
+    margin-left: 10%;
+    width: 80%;
+    height: 80vh;
+    align-items: center;
+    overflow: hidden;
+    background: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .lola-inner {
+        align-items: center;
+    position: relative;
+    width: 60vw;
+    height: 60vh;
+    overflow: hidden;
+  }
+
+  .lola-bg {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    background-position: center;
+    filter: brightness(0.8) contrast(1.4) saturate(1.2);
+    animation: bgShift 5s infinite alternate ease-in-out;
+    z-index: 1;
+  }
+
+  .lola-glitches {
+    align-items: center;
+    position: absolute;
+    margin-right: 50%;
+    width: 100%;
+    height: 100%;
+    pointer-events: none;
+    z-index: 2;
+  }
+
+  .glitch-img {
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    position: absolute;
+    opacity: 0.7;
+    will-change: transform, filter, opacity;
+  }
+
+  @keyframes bgShift {
+    0% { filter: brightness(0.7) contrast(1.2); }
+    100% { filter: brightness(1.1) contrast(1.6); }
+  }
+
+  @keyframes glitchNoise {
+    0%, 100% { transform: translate(0, 0); }
+    25% { transform: translate(-12px, 6px); }
+    50% { transform: translate(8px, -9px); }
+    75% { transform: translate(-6px, 5px); }
+  }
+
+  /* VERDE */
+
+  #verde {
+    margin-top: 30%;
+  position: relative;
+  width: 30%;
+  height: 100vh; /* o el alto que prefieras */
+  overflow: hidden;
+  align-items: center;
+  margin-left: 35%;
+}
+
+.verde-container {
+  position: relative;
+  width: 100%;
+  height: 100%;
+}
+
+.verde-img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  opacity: 0;
+  transition: opacity 2s ease;
+}
+
+.verde-img.active {
+  opacity: 1;
+  z-index: 1;
+}
+
+  /* BANANA */
+  .pelea-slider {
+ display: none;
+}
+
+/* Contenedor de la animación */
+.bananas-duelo {
+  position: relative;
+  width: 100%;
+  height: 400px;
+  overflow: hidden;
+}
+
+/* Pistola y banana */
+.duelo-img {
+  position: absolute;
+  width: 120px;
+  height: 120px;
+  object-fit: contain;
+  top: 50%;
+  transform: translateY(-50%);
+  transition: left 1s ease, transform 1s ease;
+}
+
+/* Rotación continua */
+@keyframes girarIzqADer {
+  0% { transform: translateY(-50%) rotate(-30deg); }
+  50% { transform: translateY(-50%) rotate(30deg); }
+  100% { transform: translateY(-50%) rotate(-30deg); }
+}
+
+@keyframes girarDerAIzq {
+  0% { transform: translateY(-50%) rotate(30deg); }
+  50% { transform: translateY(-50%) rotate(-30deg); }
+  100% { transform: translateY(-50%) rotate(30deg); }
+}
+
+.pistola {
+  left: -150px; /* empieza fuera izquierda */
+  animation: girarIzqADer 1s infinite linear;
+}
+
+.banana {
+  right: -150px; /* empieza fuera derecha */
+  animation: girarDerAIzq 1s infinite linear;
+}
+
+/* CUBO */
+
+
+#cubo3 {
+  margin-top: 20px;
+  width:500%;
+  height: 200vh;
+  background: rgba(0, 0, 0, 0);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  overflow: hidden;
+}
+
+.cubo3-container {
+   margin-top: 20px;
+  width: 500px;
+  height: 500px;
+  position: relative;
+  margin-right: 75%;
+}
+
+.cubo3-img {
+  position: absolute;
+  width: 50%;
+  height: 50%;
+  object-fit: cover;
+  opacity: 0;
+  transition: opacity 2s ease;
+}
+
+.cubo3-img.active {
+  opacity: 1;
+  z-index: 1;
+}
+
+/* LEANYALBA */
+.leanyalba-title {
+ font-size: 30PX;
+ margin-left: 20px;
+}
+/* LEANYALBA */
+#leanyalba {
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.leanyalba-container {
+  text-align: center;
+  align-items: center;
+  margin-right: 130px;
+}
+
+.mazo {
+  position: relative;
+  width: 150px;
+  height: 200px;
+  perspective: 1000px;
+}
+
+.carta {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 12px;
+  box-shadow: 0 8px 25px rgba(0,0,0,0.3);
+  transition: transform 1s ease, opacity 1s ease;
+  opacity: 0;
+  transform: translateY(50px) rotate(0deg) scale(0.8);
+}
+
+/* Cuando se activa la animación */
+.carta.show {
+  opacity: 1;
+  transform: translateY(0) scale(1);
+}
+
+/* Posiciones del truco */
+.carta.show:nth-child(1) {
+  transform: translateX(-120px) rotate(-20deg);
+}
+.carta.show:nth-child(2) {
+  transform: translateX(-60px) rotate(-10deg);
+}
+.carta.show:nth-child(3) {
+  transform: translateX(0) rotate(0deg) scale(1.05);
+}
+.carta.show:nth-child(4) {
+  transform: translateX(60px) rotate(10deg);
+}
+.carta.show:nth-child(5) {
+  transform: translateX(120px) rotate(20deg);
+}
+
+
+/* FINAL*/
+
+.final-section {
+  margin-top: 20%;
+  position: relative;
+  height: 100vh;
+  padding: 50px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  font-family: 'Courier New', monospace;
+  overflow: hidden;
+}
+
+.final-image {
+  position: absolute;
+  top: 20px;
+  left: 20px;
+  width: 200px;
+  height: auto;
+}
+
+.final-section .typewriter-text {
+  font-size: 8px;
+  margin-top: 30px;
+  max-width: 200px;
+  line-height: 1.6;
+  white-space: pre-wrap;
+  direction: ltr; /* Forzar escritura de izquierda a derecha */
+  text-align: left; /* Alinear el texto a la izquierda */
+    color: rgb(18, 18, 18);
+    margin-right: 60%;
+}
+
+.mnzana-img {
+width: 400px;
+height: 200px;
+margin-left: 20px;
+margin-top: -265px;
+margin-bottom: 120px;
+}
+
+
+/*MODELOS*/
+
+.modelos-section {
+  margin-top: 20%;
+  padding: 60px 20px;
+  text-align: center;
+}
+
+.modelos-section p {
+    font-family: 'Anton', sans-serif;
+  color: rgb(0, 0, 0);
+}
+
+.modelos-section h1 {
+    text-align: center;
+  color: rgb(0, 0, 0);
+}
+.modelos-container {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  flex-wrap: wrap;
+  margin-bottom: 40px;
+}
+
+.modelo-card {
+  border-radius: 10px;
+  padding: 20px;
+  text-decoration: none;
+  width: 90px;
+  transition: transform 0.3s, background-color 0.3s;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.modelo-card:hover {
+  transform: scale(1.05);
+  background-color: #ff0000;
+}
+
+.modelo-card img {
+  width: 100%;
+  height: auto;
+  margin-bottom: 10px;
+}
+
+.modelo-card p {
+  font-size: 0.7rem;
+  margin: 0;
+}
+
+.estrella-final img {
+  width: 60px;
+  height: auto;
+  margin-top: 120px;
+  margin: 0 auto;
+}
+
+
+/* PRIMANASSS */
+
+.primanas-activa {
+  opacity: 1;
+  filter: blur(0);
+  transition: opacity 0.8s ease, filter 0.8s ease;
+  pointer-events: auto;
+}
+
+.primanas-oculta {
+  opacity: 0;
+  filter: blur(10px);
+  transition: opacity 0.8s ease, filter 0.8s ease;
+  pointer-events: none;
+}
+
+.inicio-oculto {
+  opacity: 0;
+  filter: blur(10px);
+  pointer-events: none;
+  transition: opacity 0.5s ease, filter 0.5s ease;
+}
+
+.rimana-section {
+  position: relative;
+  width: 100%;
+  height: 100vh;
+  background: black;
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  font-family: monospace;
+}
+
+.rimana-content {
+  position: relative;
+  z-index: 10;
+  text-align: center;
+  color: white;
+}
+
+.rimana-content h1 {
+  font-size: 2rem;
+  margin-top: 80px;
+  color: #fff;
+}
+
+.rimana-content p {
+  font-size: 1.2rem;
+  color: #ccc;
+}
+
+/* Elementos random */
+.star, .box, .code {
+  position: absolute;
+  pointer-events: none;
+}
+
+/* Estrellas */
+.star {
+  color: #00f; /* azul eléctrico */
+  font-size: 20px;
+  filter: drop-shadow(0 0 5px #00f) drop-shadow(0 0 10px #00f);
+  animation: glitchStar 1s infinite alternate;
+}
+@keyframes glitchStar {
+  0% { transform: scale(1) rotate(0deg); opacity: 0.8; }
+  50% { transform: scale(1.3) rotate(20deg); opacity: 1; }
+  100% { transform: scale(0.9) rotate(-20deg); opacity: 0.6; }
+}
+
+/* Marcos */
+.box {
+  border: 2px solid red;
+  opacity: 0.7;
+  transform: scale(0);
+  animation: glitchBox 1.2s forwards;
+}
+
+@keyframes glitchBox {
+  0%   { transform: scale(0); opacity: 0; }
+  30%  { transform: scale(1.1); opacity: 9; }
+  50%  { transform: scale(1) translateX(-4px); }
+  60%  { transform: scale(1) translateX(5px); }
+  70%  { transform: scale(1) translateX(-9px); }
+  80%  { transform: scale(1) translateX(2px); }
+  100% { transform: scale(1); opacity: 0; }
+}
+
+/* Códigos */
+.code {
+  color: yellow;
+  text-shadow: 0 0 5px yellow, 0 0 10px yellow;
+  white-space: nowrap;
+  opacity: 0.8;
+  animation: flicker 2s infinite;
+}
+@keyframes flicker {
+  0%,100% {opacity: 1;}
+  50% {opacity: 0.4;}
+}
+
+.rimana-section, .galeria-oculta {
+  display: none;
+}
+
+/* Animaciones */
+.blur-out {
+  animation: blurOut 0.8s forwards;
+}
+.blur-in {
+  animation: blurIn 0.8s forwards;
+}
+
+@keyframes blurOut {
+  0% { filter: blur(0px); opacity: 1; }
+  100% { filter: blur(20px); opacity: 0; }
+}
+@keyframes blurIn {
+  0% { filter: blur(20px); opacity: 0; }
+  100% { filter: blur(0px); opacity: 1; }
+}
+
+/* Flecha volver */
+.volver-btn {
+  position: absolute;
+  top: 20px;
+  left: 20px;
+  background: none;
+  border: none;
+  font-size: 2rem;
+  color: white;
+  cursor: pointer;
+  z-index: 20;
+  text-shadow: 0 0 5px white, 0 0 10px white;
+}
+
+/* DISGUTSOT */
+
+.bloqueado {
+  animation: vibrarRojo 0.4s ease-in-out 2;
+  border: 3px solid red !important;
+}
+
+@keyframes vibrarRojo {
+  0% { transform: translateX(0); filter: drop-shadow(0 0 5px red);}
+  25% { transform: translateX(-6px) rotate(-1deg); filter: drop-shadow(0 0 10px red);}
+  50% { transform: translateX(6px) rotate(1deg); filter: drop-shadow(0 0 15px red);}
+  75% { transform: translateX(-4px) rotate(-1deg); filter: drop-shadow(0 0 10px red);}
+  100% { transform: translateX(0); filter: drop-shadow(0 0 5px red);}
+}
+
+/* Animaciones */
+.blur-out {
+  animation: blurOut 0.8s forwards;
+}
+.blur-in {
+  animation: blurIn 0.8s forwards;
+}
+
+@keyframes blurOut {
+  0% { filter: blur(0px); opacity: 1; }
+  100% { filter: blur(20px); opacity: 0; }
+}
+@keyframes blurIn {
+  0% { filter: blur(20px); opacity: 0; }
+  100% { filter: blur(0px); opacity: 1; }
+}
+
+/* Flecha volver */
+.volver-btn {
+  position: absolute;
+  top: 20px;
+  left: 20px;
+  background: none;
+  border: none;
+  font-size: 2rem;
+  color: white;
+  cursor: pointer;
+  z-index: 20;
+  text-shadow: 0 0 5px white, 0 0 10px white;
+}
+
+/* youtube Y BEHANCE */ 
+.youtube-box {
+  margin-top: 150px;
+  margin-left: 300px;
+  width: 300px;
+  height: 200px;
+  border: 2px solid #ff0000; /* borde rojo */
+  box-shadow: 0 0 20px rgba(255,0,0,0.6); /* sombra roja */
+  overflow: hidden;
+  cursor: pointer;
+  transition: transform 0.3s;
+}
+
+.youtube-box:hover {
+  transform: scale(1.05);
+}
+
+.textoyt {
+  position: absolute;
+  font-family:'Courier New', Courier, monospace;
+  font-weight: 900;
+  top: 1600px;
+  left: 300px; /* Ahora está a la derecha */
+  max-width: 200px;
+  font-size: 15px;
+  color: rgb(255, 0, 0);
+  text-align: left;
+}
+
+
+/* OVERLAYS CLRMK */ 
+
+/* Overlay general */
+.overlay {
+  position: fixed;
+  top: 0; left: 0;
+  width: 100%; height: 100%;
+  background: rgba(0,0,0,0.85);
+  backdrop-filter: blur(8px);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 2000;
+  opacity: 0;
+  pointer-events: none;
+  transition: opacity 0.5s ease;
+}
+
+.overlay.activo {
+  opacity: 1;
+  pointer-events: auto;
+}
+
+.cerrar-btn {
+  position: absolute;
+  top: 20px; right: 30px;
+  font-size: 2rem;
+  color: red;
+  background: none;
+  border: none;
+  cursor: pointer;
+  z-index: 2100;
+}
+
+.overlay-contenido {
+  width: 90%;
+  height: 80%;
+  overflow-x: auto;
+  white-space: nowrap;
+  padding-bottom: 10px; /* deja espacio para el scroll */
+}
+
+/* Contenedor del scroll */
+.overlay-scroll img {
+  display: inline-block;
+  width: 250px;   /* tamaño fijo cuadrado */
+  height: 250px;  /* todas iguales */
+  object-fit: cover; /* recorta sin deformar */
+  margin-right: 10px;
+  border-radius: 10px;
+  box-shadow: 0 0 15px rgba(255,0,0,0.6);
+  transition: transform 0.3s ease;
+}
+
+.overlay-scroll img:hover {
+  transform: scale(1.05);
+}
+
+/* Personalización del scroll */
+.overlay-contenido::-webkit-scrollbar {
+  height: 5px; /* más chiquito */
+}
+
+.overlay-contenido::-webkit-scrollbar-track {
+  background: rgba(255,255,255,0.1);
+  border-radius: 10px;
+}
+
+.overlay-contenido::-webkit-scrollbar-thumb {
+  background: red;
+  border-radius: 10px;
+}
+
+.overlay-contenido::-webkit-scrollbar-thumb:hover {
+  background: #ff4444;
+}
+
+/* ============================
+   MEDIA QUERIES CORRECTAS
+   Pegar AL FINAL del archivo CSS
+   Breakpoints (mobile-first):
+   - Mobile:        up to 575.98px
+   - Tablet:        576px — 991.98px
+   - Laptop:        992px — 1199.98px
+   - Desktop:       from 1200px
+   ============================ */
+
+/* ------- DEFAULT (estilos base para mobile-first) ------- */
+/* Opcional: preciosas reglas base que aplican a todos */
+html { box-sizing: border-box; font-size: 16px; }
+*, *::before, *::after { box-sizing: inherit; }
+
+/* Ajustes generales para móviles (base) */
+.contenedor {
+  width: 100%;
+  max-width: 1920px;
+  margin: 0 auto;
+  padding: 0 12px;
+  min-height: 100vh;
+  overflow-x: hidden;
+}
+
+/* ============================
+   MÓVIL — Portrait (<= 575.98px)
+   ============================ */
+@media screen and (max-width: 575.98px) and (orientation: portrait) {
+  /* ejemplo: fondo para debugging - reemplazalo o quitalo */
+  /* body { background: green; } */
+
+  /* convertir muchos absolut a flow para evitar solapamientos */
+  .lola-centro, .clmklola, .texto-claro, .titulo, .tituloawawa,
+  .seccion-libro, .proyectos-grid, .cubo-imagenes, .final-section,
+  .modelo-card, .typewriter-text {
+    position: static !important;
+    left: auto !important;
+    right: auto !important;
+    top: auto !important;
+    transform: none !important;
+    margin: 0.6rem auto;
+    text-align: center;
+  }
+
+  .lola-centro { width: 92%; max-width: 420px; margin-top: 1rem; }
+  .typewriter-text { font-size: 0.85rem; max-width: 95%; border: none; direction: ltr; text-align:center; }
+  .titulo { font-size: clamp(1rem, 6.5vw, 1.6rem); }
+  .proyectos-grid { flex-direction: column; gap: 0.8rem; align-items: center; margin-top: 2rem; }
+  .proyecto-box { width: 92%; height: auto; padding: 12px; display:flex; justify-content:center; align-items:center; }
+  .overlay-contenido { width: 96%; height: 65vh; padding: 6px; -webkit-overflow-scrolling: touch; }
+  /* Ocultar detalles no esenciales para móviles */
+  .glitch-line, .star, .box, .code { display: none; }
+}
+
+/* ============================
+   MÓVIL — Landscape (<= 575.98px, landscape)
+   ============================ */
+@media screen and (max-width: 575.98px) and (orientation: landscape) {
+  /* body { background: black; } */
+
+  .contenedor { padding: 0 10px; }
+  .lola-centro { width: 86%; max-width: 520px; margin-top: 0.8rem; }
+  .typewriter-text { font-size: 0.9rem; max-width: 92%; text-align:center; }
+  .titulo { font-size: clamp(1.1rem, 5.5vw, 1.8rem); }
+  .proyectos-grid { gap: 0.8rem; margin-top: 1.2rem; }
+}
+
+/* ============================
+   TABLET — Portrait (576px — 991.98px)
+   ============================ */
+@media screen and (min-width: 576px) and (max-width: 991.98px) and (orientation: portrait) {
+  /* body { background: orange; } */
+
+  .contenedor { padding: 0 16px; }
+  /* Devuelve algunos elementos a posicionamiento relativo pero fluido */
+  .lola-centro {
+    position: relative; left: 50%; transform: translateX(-50%);
+    width: 70vw; max-width: 720px; margin-top: 1.6rem;
+  }
+  .clmklola { max-width: 85%; margin: 1rem auto; }
+  .typewriter-text {
+    position: relative; right: auto; left: auto; text-align:center;
+    border-left: none; border-right: 2px solid rgba(255,255,255,0.08);
+    padding: .6rem; max-width: 90%;
+  }
+  .trawr { font-size: 1.6rem; white-space: normal; }
+  .proyectos-grid { flex-wrap: wrap; gap: 1rem; margin-top: 4rem; justify-content:center; }
+  .cubo-imagenes { width: 80%; height: auto; margin: 0 auto; }
+  .overlay-contenido { height: 70vh; overflow-x: auto; }
+}
+
+/* ============================
+   TABLET — Landscape (576px — 991.98px, landscape)
+   ============================ */
+@media screen and (min-width: 576px) and (max-width: 991.98px) and (orientation: landscape) {
+  /* body { background: #111; } */
+
+  .contenedor { padding: 0 18px; }
+  .lola-centro { width: 60vw; max-width: 640px; margin-top: 1rem; }
+  .titulo { font-size: clamp(1.4rem, 3.5vw, 2.6rem); text-align:center; }
+  .typewriter-text { font-size: 0.95rem; max-width: 70%; margin: 0.8rem auto; }
+  .proyecto-box { width: 140px; height: 110px; }
+}
+
+/* ============================
+   LAPTOP — Portrait / Landscape (992px — 1199.98px)
+   ============================ */
+@media screen and (min-width: 992px) and (max-width: 1199.98px) {
+  /* body { background: blue; } */
+
+  .contenedor { padding: 0 24px; }
+  .lola-centro { position: absolute; top: 6vh; left: 50%; transform: translateX(-50%); width: 50vw; max-width: 680px; }
+  .clmklola { max-width: 55%; margin-top: 3rem; }
+  .typewriter-text { right: 3vw; max-width: 30vw; font-size: 1rem; top: 6vh; text-align:right; }
+  .titulo { font-size: clamp(2rem, 3.2vw, 3rem); left: 4vw; top: 18vh; text-align:left; }
+  .proyectos-grid { gap: 1.4rem; margin-top: 6rem; justify-content:center; }
+  .cubo-imagenes { width: clamp(260px, 26vw, 420px); height: auto; }
+  .overlay-contenido { max-width: 1100px; height: 80vh; }
+}
+
+/* ============================
+   DESKTOP — from 1200px (>= 1200px)
+   ============================ */
+@media screen and (min-width: 1200px) {
+  /* body { background: red; } */
+
+  .contenedor {
+    padding: 0 40px;
+    max-width: 1920px;
+  }
+  .lola-centro { width: 620px; top: 5vh; left: 50%; transform: translateX(-50%); z-index: 2; }
+  .clmklola { max-width: 50%; margin-top: 6rem; }
+  .typewriter-text { position: absolute; right: 30px; top: 6rem; font-size: 1rem; max-width: 180px; text-align:right; }
+  .titulo { position: absolute; top: 420px; left: 30px; font-size: 46px; }
+  .proyectos-grid { display:flex; gap: 2rem; margin-top: 8rem; justify-content:center; }
+  .cubo-imagenes { width: 400px; height: 360px; }
+  .overlay-contenido { width: 90%; max-width: 1300px; height: 80vh; overflow-x: auto; }
+}
+
+/* ============================
+   ORIENTACIÓN ÚNICA: dispositivos de tableta muy altos (ej: 768x1024)
+   Ejemplo: if you want to target typical iPad portrait specifically
+   ============================ */
+@media screen and (min-width: 768px) and (max-width: 1024px) and (orientation: portrait) {
+  /* Ajustes puntuales para iPad portrait */
+  .lola-centro { width: 68vw; max-width: 720px; }
+  .typewriter-text { right: 4vw; max-width: 32vw; }
+}
+
+/* ============================
+   UTILIDADES rápidas para evitar problemas comunes
+   - Forzar imágenes responsive
+   - Desactivar animaciones pesadas en móviles
+   ============================ */
+img, video { max-width: 100%; height: auto; display: block; }
+@media (max-width: 768px) {
+  *[class*="anim"], .trawr { animation: none !important; transition: none !important; }
+}
+
+/* ============================
+   FIN media queries
+   ============================ */
+/* ==============================
+   FIX POSICIONES: estrellada + typewriter + CRMK (tablet / movil)
+   Pegar AL FINAL del archivo CSS
+   ============================== */
+
+/* ------------------------------
+   Reglas base de seguridad para no desaparecer
+   ------------------------------ */
+.estrellada,
+.typewriter-text#typewriter,
+#clrmk,
+.titulo-clmk,
+.flecha-volver,
+.estiloclrmk img,
+.dinamico img,
+#overlay #hoja img {
+  display: block !important;
+  opacity: 1 !important;
+  pointer-events: auto !important;
+}
+
+/* Forzar z-index positivo para que no queden detrás */
+.estrellada { z-index: 50 !important; }
+.typewriter-text#typewriter { z-index: 60 !important; }
+#clrmk, .titulo-clmk, .flecha-volver { z-index: 70 !important; }
+#overlay { z-index: 9999 !important; }
+#overlay #hoja img { z-index: 10000 !important; }
+
+/* ----------------------------------------
+   TABLET: portrait (<= 768px, portrait orientation)
+   ---------------------------------------- */
+@media screen and (max-width: 768px) and (orientation: portrait) {
+  /* asegurar contenedor visible */
+  .contenedor { padding: 12px !important; min-height: auto !important; }
+
+  /* Estrella: pasar a flujo y centrar */
+  .estrellada {
+    position: relative !important;
+    top: auto !important;
+    left: auto !important;
+    right: auto !important;
+    margin: 1.2rem auto !important;
+    max-width: 18vw !important; /* escala relativa */
+    width: 90px !important;
+    height: auto !important;
+    transform: none !important;
+  }
+
+  /* Typewriter: pasar a flujo, legible y centrado */
+  .typewriter-text#typewriter {
+    position: relative !important;
+    top: auto !important;
+    right: auto !important;
+    left: auto !important;
+    transform: none !important;
+    display: block !important;
+    margin: 0.6rem auto !important;
+    max-width: 92% !important;
+    font-size: clamp(0.85rem, 3.2vw, 1rem) !important;
+    text-align: center !important;
+    direction: ltr !important; /* evita RTL si rompe el orden en móviles */
+    border-left: none !important;
+    border-right: 2px solid rgba(0,0,0,0.08) !important;
+  }
+
+  /* CLRMK section: hacerlo relativo y centrado */
+  #clrmk {
+    position: relative !important;
+    padding: 1.2rem !important;
+    margin: 1rem auto !important;
+    width: 96% !important;
+    box-sizing: border-box !important;
+    overflow: visible !important;
+  }
+  .titulo-clmk {
+    font-size: clamp(1.6rem, 5.6vw, 2.4rem) !important;
+    text-align: center !important;
+    padding-left: 0 !important;
+  }
+  .subtitulo-clmk {
+    text-align: center !important;
+    padding-right: 0 !important;
+    font-size: clamp(0.9rem, 2.8vw, 1.1rem) !important;
+  }
+
+  /* Flecha volver (evitar left negativos) */
+  .flecha-volver {
+    left: 12px !important;
+    top: 12px !important;
+    position: absolute !important;
+    display: block !important;
+  }
+
+  /* Overlay hoja: centrar la imagen y quitar márgenes gigantes */
+  #overlay #hoja img {
+    position: relative !important;
+    margin-top: 0 !important;
+    margin-left: 0 !important;
+    max-width: 92vw !important;
+    max-height: 78vh !important;
+    transform: none !important;
+    display: block !important;
+    left: auto !important;
+    top: auto !important;
+  }
+
+  /* Evitar imágenes con top lejano (ej: estiloclrmk, dinamico) */
+  .estiloclrmk img,
+  .dinamico img {
+    position: relative !important;
+    top: auto !important;
+    left: auto !important;
+    margin: 0.6rem auto !important;
+    transform: none !important;
+    max-width: 100% !important;
+  }
+}
+
+/* ----------------------------------------
+   TABLET: landscape (<= 991.98px and landscape)
+   Uso un rango más realista para tablets en landscape
+   ---------------------------------------- */
+@media screen and (min-width: 769px) and (max-width: 991.98px) and (orientation: landscape) {
+  .contenedor { padding: 16px !important; }
+
+  .estrellada {
+    position: absolute !important;
+    top: 6vh !important;
+    left: 6vw !important;
+    max-width: 10vw !important;
+    width: auto !important;
+    transform: none !important;
+  }
+
+  .typewriter-text#typewriter {
+    position: absolute !important;
+    top: 5vh !important;
+    right: 4vw !important;
+    max-width: 36vw !important;
+    font-size: clamp(0.9rem, 1.8vw, 1.05rem) !important;
+    text-align: right !important;
+    direction: ltr !important;
+  }
+
+  /* CLRMK */
+  #clrmk { padding: 1.6rem !important; width: 92% !important; margin: 1rem auto !important; }
+  .titulo-clmk { font-size: clamp(2rem, 3.2vw, 2.8rem) !important; text-align: left !important; padding-left: 1rem !important; }
+  .flecha-volver { left: 16px !important; top: 20px !important; }
+  #overlay #hoja img { max-width: 86vw !important; max-height: 80vh !important; margin: 0 auto !important; display:block !important; }
+  .estiloclrmk img, .dinamico img { position: absolute; top: auto; left: auto; transform: none !important; max-width: 80% !important; margin: 0 auto; }
+}
+
+/* ----------------------------------------
+   MOVIL extra seguro (<= 575.98px)
+   ---------------------------------------- */
+@media screen and (max-width: 575.98px) {
+  .estrellada { max-width: 22vw !important; margin: 0.8rem auto !important; position: relative !important; }
+  .typewriter-text#typewriter {
+    font-size: clamp(0.8rem, 3.6vw, 0.95rem) !important;
+    max-width: 96% !important;
+    margin: 0.4rem auto !important;
+    border-right: 2px solid rgba(0,0,0,0.06) !important;
+  }
+  #clrmk { width: 96% !important; padding: 10px !important; margin: 0.6rem auto !important; }
+  .flecha-volver { left: 8px !important; top: 6px !important; font-size: 1.6rem !important; }
+  /* Desactiva animaciones que puedan ocultar elementos en pantallas chicas */
+  .trawr, .glitch-line { animation: none !important; transition: none !important; }
+}
+
+/* ----------------------------------------
+   Pequeño helper para asegurarnos que nada quede fuera
+   cuando el inspector simula un dispositivo:
+   Forzamos overflow visible donde puede recortarse contenido.
+   ---------------------------------------- */
+@media screen and (max-width: 1024px) {
+  body, html, .contenedor, #clrmk {
+    overflow-x: hidden !important;   /* evitar scroll horizontal */
+    overflow-y: visible !important;
+  }
+}
+
+/* ==============================
+   Nota:
+   - Estas reglas fuerzan visibilidad y posiciones "seguros".
+   - Si luego detectás una sección con layout muy específico que aún necesite ajuste,
+     pegame el HTML de esa sección (ej: el contenedor exacto de .estrellada o #typewriter)
+     y lo pulo puntualmente.
+   ============================== */

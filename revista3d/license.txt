@@ -1,0 +1,11 @@
+Model Information:
+* title:	Libro Marcelo Sáenz
+* source:	https://sketchfab.com/3d-models/libro-marcelo-saenz-0edd324c10784e3a83b915fc652c9708
+* author:	david.saenz8818 (https://sketchfab.com/david.saenz8818)
+
+Model License:
+* license type:	CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
+* requirements:	Author must be credited. Commercial use is allowed.
+
+If you use this 3D model in your project be sure to copy paste this credit wherever you share it:
+This work is based on "Libro Marcelo Sáenz" (https://sketchfab.com/3d-models/libro-marcelo-saenz-0edd324c10784e3a83b915fc652c9708) by david.saenz8818 (https://sketchfab.com/david.saenz8818) licensed under CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
